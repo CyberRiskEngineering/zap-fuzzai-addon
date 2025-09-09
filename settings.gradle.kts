@@ -3,4 +3,4 @@ plugins {
     id("com.diffplug.spotless") version "6.25.0" apply false
 }
 
-rootProject.name = "addon-java"
+rootProject.name = "zap-fuzzai-addon"
