@@ -1,4 +1,6 @@
-# ZAP Template Java Add-on
+# ZAP FUZZAI Java Add-on 
+
+## Version 0.0.2
 
 A template repo for a 3rd party [ZAP](https://www.zaproxy.org) Java add-on.
 
