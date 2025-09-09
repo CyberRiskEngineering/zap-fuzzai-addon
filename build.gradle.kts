@@ -11,8 +11,8 @@ plugins {
 description = "A template for a 3rd party ZAP Java add-on."
 
 zapAddOn {
-    addOnId.set("addonjava")
-    addOnName.set("A Template Java Add-on")
+    addOnId.set("fuzzai-addon")
+    addOnName.set("FuzzAI Java Add-on")
     zapVersion.set("2.16.0")
     addOnStatus.set(AddOnStatus.ALPHA)
 
@@ -21,8 +21,8 @@ zapAddOn {
 
     manifest {
         author.set("ZAP Dev Team")
-        url.set("https://www.zaproxy.org/docs/desktop/addons/addonjava/")
-        repo.set("https://github.com/zaproxy/addon-java")
+        url.set("https://www.zaproxy.org/docs/desktop/addons/fuzzai/")
+        repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
         changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
     }
 }
