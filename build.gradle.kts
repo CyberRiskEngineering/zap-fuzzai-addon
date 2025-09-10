@@ -11,8 +11,8 @@ plugins {
 description = "A template for a 3rd party ZAP Java add-on."
 
 zapAddOn {
-    addOnId.set("addonjava")
-    addOnName.set("A Template Java Add-on")
+    addOnId.set("zap-fuzzai-addon")
+    addOnName.set("A FUZZAI Java Add-on")
     zapVersion.set("2.16.0")
     addOnStatus.set(AddOnStatus.ALPHA)
 
