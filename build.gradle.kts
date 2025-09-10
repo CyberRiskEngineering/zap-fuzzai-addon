@@ -4,14 +4,14 @@ import org.zaproxy.gradle.addon.misc.ConvertMarkdownToHtml
 plugins {
     `java-library`
     id("org.zaproxy.add-on") version "0.13.1"
-    id("com.diffplug.spotless")
-    id("org.zaproxy.common")
+    // id("com.diffplug.spotless")
+    // id("org.zaproxy.common")
 }
 
 description = "A template for a 3rd party ZAP Java add-on."
 
 zapAddOn {
-    addOnId.set("fuzzai-addon")
+    addOnId.set("zap-fuzzai-addon")
     addOnName.set("FuzzAI Java Add-on")
     zapVersion.set("2.16.0")
     addOnStatus.set(AddOnStatus.ALPHA)
