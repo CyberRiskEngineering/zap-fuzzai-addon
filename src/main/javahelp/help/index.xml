@@ -7,5 +7,6 @@
     <indexitem text="fuzzai" target="addon.fuzzai" />
 	<indexitem text="Extract Model Information" target="addon.fuzzai.ex-mod-info"/>
 	<indexitem text="Extract Training Data" target="addon.fuzzai.ex-train-data"/>
+	<indexitem text="Exploit Model Memory" target="addon.fuzzai.exp-mod-mem"/>
 	<indexitem text="Test Edge Cases" target="addon.fuzzai.test-edge"/>
 </index>
