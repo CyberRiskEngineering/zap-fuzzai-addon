@@ -10,6 +10,7 @@
 				<tocitem text="Extract Model Information" target="addon.fuzzai.ex-mod-info"/>
 				<tocitem text="Extract Training Data" target="addon.fuzzai.ex-train-data"/>
 				<tocitem text="Test Edge Cases" target="addon.fuzzai.test-edge"/>
+				<tocitem text="Exploit Model Memory" target="addon.fuzzai.exp-mod-mem"/>
 			</tocitem>
         </tocitem>
     </tocitem>
