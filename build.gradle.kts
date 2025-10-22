@@ -37,8 +37,9 @@ spotless {
     kotlinGradle {
         ktlint()
     }
-}
 helpSet {
     baseName.set("help%LC%.helpset")
     localeToken.set("%LC%")
 }
+}
+
