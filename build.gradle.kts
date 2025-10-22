@@ -8,11 +8,11 @@ plugins {
     id("org.zaproxy.common")
 }
 
-description = "A template for a 3rd party ZAP Java add-on."
+description = "FUZZAI ZAP Java add-on."
 
 zapAddOn {
-    addOnId.set("zap-fuzzai-addon")
-    addOnName.set("A FUZZAI Java Add-on")
+    addOnId.set("fuzzai")
+    addOnName.set("FuzzAI Files")
     zapVersion.set("2.16.0")
     addOnStatus.set(AddOnStatus.ALPHA)
 
