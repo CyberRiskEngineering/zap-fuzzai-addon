@@ -8,7 +8,7 @@ plugins {
     id("org.zaproxy.common")
 }
 
-description = "FUZZAI ZAP Java add-on."
+description = "FuzzAI files which can be used with the ZAP fuzzer."
 
 zapAddOn {
     addOnId.set("fuzzai")
@@ -25,10 +25,7 @@ zapAddOn {
         repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
         changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
     }
-    helpSet {
-        baseName.set("help%LC%.helpset")
-        localeToken.set("%LC%")
-    }
+    
 }
 
 java {
