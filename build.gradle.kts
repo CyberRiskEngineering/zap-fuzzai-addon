@@ -25,6 +25,10 @@ zapAddOn {
         repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
         changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
     }
+    helpSet {
+        baseName.set("help%LC%.helpset")
+        localeToken.set("%LC%")
+    }
 }
 
 java {
@@ -37,9 +41,6 @@ spotless {
     kotlinGradle {
         ktlint()
     }
-helpSet {
-    baseName.set("help%LC%.helpset")
-    localeToken.set("%LC%")
-}
+
 }
 
