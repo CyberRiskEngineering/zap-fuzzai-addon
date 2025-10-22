@@ -20,9 +20,9 @@ zapAddOn {
     unreleasedLink.set("https://github.com/youruser/javaexample/compare/v@CURRENT_VERSION@...HEAD")
 
     manifest {
-        author.set("ZAP Dev Team")
-        url.set("https://www.zaproxy.org/docs/desktop/addons/addonjava/")
-        repo.set("https://github.com/zaproxy/addon-java")
+        author.set("Marios Gyftos & Yiannis Pavlosoglou")
+        url.set("https://www.zaproxy.org/docs/desktop/addons/fuzzai-files/")
+        repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
         changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
     }
 }
@@ -37,4 +37,8 @@ spotless {
     kotlinGradle {
         ktlint()
     }
+}
+helpSet {
+    baseName.set("help%LC%.helpset")
+    localeToken.set("%LC%")
 }
