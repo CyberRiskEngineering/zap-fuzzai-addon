@@ -8,7 +8,7 @@ plugins {
     id("org.zaproxy.common")
 }
 
-description = "FuzzAI files which can be used with the ZAP fuzzer!"
+description = "FuzzAI files which can be used with the ZAP fuzzer!!"
 
 zapAddOn {
     addOnId.set("fuzzai")
