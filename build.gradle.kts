@@ -23,7 +23,7 @@ zapAddOn {
         author.set("Marios Gyftos & Yiannis Pavlosoglou")
         url.set("https://www.zaproxy.org/docs/desktop/addons/fuzzai-files/")
         repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
-        changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
+        
     }
     
 }
