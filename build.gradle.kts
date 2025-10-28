@@ -1,5 +1,4 @@
 import org.zaproxy.gradle.addon.AddOnStatus
-import org.zaproxy.gradle.addon.misc.ConvertMarkdownToHtml
 
 plugins {
     `java-library`
@@ -8,7 +7,7 @@ plugins {
     id("org.zaproxy.common")
 }
 
-description = "FuzzAI files which can be used with the ZAP fuzzer!!"
+description = "FuzzAI files which can be used with the ZAP fuzzer!!!"
 
 zapAddOn {
     addOnId.set("fuzzai")
@@ -23,9 +22,7 @@ zapAddOn {
         author.set("Marios Gyftos & Yiannis Pavlosoglou")
         url.set("https://www.zaproxy.org/docs/desktop/addons/fuzzai-files/")
         repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
-        
     }
-    
 }
 
 java {
@@ -38,6 +35,4 @@ spotless {
     kotlinGradle {
         ktlint()
     }
-
 }
-
