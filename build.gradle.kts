@@ -1,4 +1,5 @@
 import org.zaproxy.gradle.addon.AddOnStatus
+import org.zaproxy.gradle.addon.misc.ConvertMarkdownToHtml
 
 plugins {
     `java-library`
@@ -22,7 +23,7 @@ zapAddOn {
         author.set("Marios Gyftos & Yiannis Pavlosoglou")
         url.set("https://www.zaproxy.org/docs/desktop/addons/fuzzai-files/")
         repo.set("https://github.com/CyberRiskEngineering/zap-fuzzai-addon")
-
+	changesFile.set(tasks.named<ConvertMarkdownToHtml>("generateManifestChanges").flatMap { it.html })
         helpSet {
             baseName.set("help%LC%.helpset")
             localeToken.set("%LC%")
