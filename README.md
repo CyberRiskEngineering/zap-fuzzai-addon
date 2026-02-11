@@ -9,3 +9,6 @@ In the current version, the payload cover the following major categories:
   - extract-model-information
   - extract-training-data
   - test-edge-cases
+  - OWASP LLM Top 10
+
+Note: Payload files are formatted as one payload per line to support ZAP fuzzing compatibility.
