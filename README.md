@@ -12,3 +12,6 @@ In the current version, the payload cover the following major categories:
   - OWASP LLM Top 10
 
 Note: Payload files are formatted as one payload per line to support ZAP fuzzing compatibility.
+
+
+Latest update: OWASP LLM Top 10 payloads were expanded with state-of-the-art enterprise injection entry points (ticketing, chat transcripts, RAG chunks, PR comments, webhook and workflow contexts), while preserving one-payload-per-line ZAP compatibility.

@@ -3,6 +3,12 @@ All notable changes to this add-on will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.0.5] - 2026-02-16
+### Changed
+- Expand OWASP Top 10 corpus with +5 realistic enterprise injection payloads per category (50 total additions) under `src/main/zapHomeFiles/fuzzers/fuzzai/OWASP_TOP_10`.
+- Preserve one-payload-per-line formatting for ZAP compatibility across all appended payloads.
+- Normalize `# Expected Response:` marker consistency in OWASP payload metadata.
+
 ## [0.0.4] - 2026-02-11
 ### Changed
 - Normalize OWASP Top 10 payloads to single-line entries for ZAP compatibility.
